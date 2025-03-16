@@ -4,11 +4,7 @@ from pydantic import BaseModel
 # Define router
 router = APIRouter()
 
-# Request and Response Modelsfrom fastapi import APIRouter
-from pydantic import BaseModel
-
-router = APIRouter()
-
+# Request and Response Models
 class NERStanceRequest(BaseModel):
     text: str
 
